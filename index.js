@@ -1,7 +1,6 @@
 const express = require('express');
 const { Rcon } = require('rcon-client');
-// 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
-const aiToken = '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';
+const aiToken = 'aiToken';
 const app = express();
 app.use(express.json());
 const PORT = 7777;
